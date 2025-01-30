@@ -1,8 +1,12 @@
 ;; vim: ft=query
 ;; extends
 
+(function_definition
+    declarator: (identifier) @AlabasterDefinition)
+
 (function_declarator
   declarator: (identifier) @AlabasterDefinition)
+
 (preproc_function_def
   name: (identifier) @AlabasterDefinition)
 
